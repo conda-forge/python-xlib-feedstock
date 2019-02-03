@@ -1,4 +1,4 @@
-{% set version = "0.24" %}
+{% set version = "0.25" %}
 
 package:
   name: python-xlib
@@ -7,7 +7,7 @@ package:
 source:
   fn: python-xlib-{{ version }}.tar.bz2
   url: https://github.com/python-xlib/python-xlib/releases/download/{{ version }}/python-xlib-{{ version }}.tar.bz2
-  sha256: 7ecf32b18b59be2c06848410bae848792ead119ac31084f487730581b3ab598c
+  sha256: 204f280b549352af6cbdaff43405186822ae05749518dd9be209bd88a0088f99
 
 build:
   number: 0
