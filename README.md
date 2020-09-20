@@ -5,7 +5,7 @@ Home: https://github.com/python-xlib/python-xlib
 
 Package license: LGPL 2.1+
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: XLib in pure Python
 
