@@ -1,4 +1,4 @@
-{% set version = "0.28" %}
+{% set version = "0.30" %}
 
 package:
   name: python-xlib
@@ -7,7 +7,7 @@ package:
 source:
   fn: python-xlib-{{ version }}.tar.bz2
   url: https://github.com/python-xlib/python-xlib/releases/download/{{ version }}/python-xlib-{{ version }}.tar.bz2
-  sha256: 9b101976ade381d10f1c81c66ba198d85be104f624a9d7ab4b6f3bbcb0efd01b
+  sha256: fd237f4eed494bb6fc6f0f94a15279aa9a50c90eeaef4fc57d1f9e923818456b
 
 build:
   number: 0
@@ -15,7 +15,7 @@ build:
   script: python setup.py install  --single-version-externally-managed --record=record.txt
 
 requirements:
-  build:
+  host:
     - python
     - setuptools_scm
   run:
