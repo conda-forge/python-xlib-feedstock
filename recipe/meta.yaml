@@ -16,11 +16,12 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3.3
+    - setuptools >=30.3.0
     - setuptools_scm
   run:
-    - python
-    - six
+    - python >=3.3
+    - six >=1.10.0
 
 test:
   imports:
@@ -33,8 +34,7 @@ test:
 
 about:
   home: https://github.com/python-xlib/python-xlib
-  license: LGPL 2.1+
-  license_family: LGPL
+  license: LGPL-2.1-or-later
   license_file: LICENSE
   summary: XLib in pure Python
 
