@@ -12,10 +12,11 @@ source:
 build:
   number: 0
   noarch: python
-  script: python setup.py install  --single-version-externally-managed --record=record.txt
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
+    - pip
     - python >=3.3
     - setuptools >=30.3.0
     - setuptools_scm
@@ -31,6 +32,10 @@ test:
     - Xlib.protocol
     - Xlib.support
     - Xlib.xobject
+  commands:
+    - pip check
+  requires:
+    - pip
 
 about:
   home: https://github.com/python-xlib/python-xlib
