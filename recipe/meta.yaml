@@ -1,5 +1,5 @@
 {% set name = "python-xlib" %}
-{% set version = "0.31" %}
+{% set version = "0.32" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/python-xlib-{{ version }}.tar.gz
-  sha256: 74d83a081f532bc07f6d7afcd6416ec38403d68f68b9b9dc9e1f28fbf2d799e9
+  sha256: 20e1382f8a98d8ed0facfa45415c46fd0c8eeb6f9996e58c22d3382a4ed6e37b
 
 build:
   number: 0

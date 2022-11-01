@@ -3,7 +3,7 @@ About python-xlib
 
 Home: https://github.com/python-xlib/python-xlib
 
-Package license: LGPL 2.1+
+Package license: LGPL-2.1-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-xlib-feedstock/blob/main/LICENSE.txt)
 
